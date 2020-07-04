@@ -7,7 +7,7 @@ with open("D:/PYTHON PROGRAMMING/data/Scrapping/Himawari_scraping5.csv", newline
 #Assign the import file to the DictReader "reader"
     reader = csv.DictReader(f)
 
-#loop through all rows and build out variables
+#loop all
     for row in reader:
         filename = row['Nama File'] + '.jpg'
         url = 'https://www.data.jma.go.jp/mscweb/data/himawari/img/r2w/'
